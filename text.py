@@ -51,6 +51,7 @@ def levenstein_rangex(root: Sequence, bases: Sequence=string.ascii_letters, dist
 
 def levenstein_generator(root: Sequence, bases: Sequence=string.ascii_letters, distance: int=1) -> Generator[Sequence]:
     """Generate all possible variations of `root` ordered by their levenstein distance, up to `distance`
+    Source: https://stackoverflow.com/questions/39858659/what-tool-or-algorithm-should-i-use-to-generate-words-from-a-keyword-which-is-at/
 
     :param root: root sequence
     :type root: Sequence

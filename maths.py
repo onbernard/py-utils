@@ -27,7 +27,7 @@ class MeanDevCounter:
     def sigma(self) -> float:
         """Get the current deviation
 
-        :return: _description_
+        :return: standard deviation
         :rtype: float
         """
         return math.sqrt(self.s_2/self.n - self.mu**2)
